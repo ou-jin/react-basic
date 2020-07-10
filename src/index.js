@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Router from '../src/config/router'
+import Mian from '../src/views/main/index'
 
 
 ReactDOM.render(
-    <Router />,
+    <Mian />,
   document.getElementById('root')
 );
 
